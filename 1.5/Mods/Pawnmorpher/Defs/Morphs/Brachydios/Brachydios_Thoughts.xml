@@ -1,0 +1,127 @@
+﻿<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/ThoughtDef.xsd">
+	<ThoughtDef ParentName="OutlookMemoryBase">
+        <durationDays>1</durationDays>
+        <defName>EtherBrachydiosSnout</defName>
+        <stages>
+            <li>
+                <label>Brachydios face</label>
+                <description>I can't talk because of this. Also that nose horn is distracting.</description>
+                <visible>true</visible>
+                <baseMoodEffect>-2</baseMoodEffect>
+            </li>
+            <li>
+                <label>Brachydios face</label>
+                <description>Menacing. I dig it.</description>
+                <visible>true</visible>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+            <li>
+                <label>Brachydios face</label>
+                <description>I look hideous.</description>
+                <visible>true</visible>
+                <baseMoodEffect>-5</baseMoodEffect>
+            </li>
+        </stages>
+		</ThoughtDef>
+    <ThoughtDef ParentName="OutlookMemoryBase">
+        <durationDays>1</durationDays>
+        <defName>EtherBrachydiosTail</defName>
+        <stages>
+            <li>
+                <label>Brachydios tail</label>
+                <description>I mean, I guess I can slam stuff with it at least...</description>
+                <visible>true</visible>
+                <baseMoodEffect>-1</baseMoodEffect>
+            </li>
+            <li>
+                <label>Brachydios tail</label>
+                <description>Built-in mace. Aye that will do it.</description>
+                <visible>true</visible>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+            <li>
+                <label>Brachydios tail</label>
+                <description>I'm gonna accidentally hurt someone with this thing.</description>
+                <visible>true</visible>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+	<ThoughtDef ParentName="OutlookMemoryBase">
+        <durationDays>1</durationDays>
+        <defName>EtherBrachydiosArm</defName>
+        <stages>
+            <li>
+                <label>arm stumps</label>
+                <description>This armored shell gets in the way of using my hand. It's also really heavy.</description>
+                <visible>true</visible>
+                <baseMoodEffect>-1</baseMoodEffect>
+            </li>
+            <li>
+                <label>arm stumps</label>
+                <description>Hell yeah, I'm gonna punch the hell out of anyone who dares to confront me.</description>
+                <visible>true</visible>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+            <li>
+                <label>arm stumps</label>
+                <description>How am I supposed to do anything with these...</description>
+                <visible>true</visible>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+	<ThoughtDef ParentName="OutlookMemoryBase">
+        <durationDays>1</durationDays>
+        <defName>EtherBrachydiosHorn</defName>
+        <stages>
+            <li>
+                <label>Brachydios horn</label>
+                <description>I feel like my neck is going to give in from the weight of this thing.</description>
+                <visible>true</visible>
+                <baseMoodEffect>-1</baseMoodEffect>
+            </li>
+            <li>
+                <label>Brachydios horn</label>
+                <description>Rather unusual, but I like it.</description>
+                <visible>true</visible>
+                <baseMoodEffect>1</baseMoodEffect>
+            </li>
+            <li>
+                <label>Brachydios horn</label>
+                <description>What kind of screwed up horn is this!?</description>
+                <visible>true</visible>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+	<ThoughtDef ParentName="OutlookMemoryBase">
+        <durationDays>1</durationDays>
+        <defName>EtherBrachydiosSkin</defName>
+        <stages>
+            <li>
+                <label>iridescent armor</label>
+                <description>This heavy armor makes moving harder, but extra protection is nice I guess.</description>
+                <visible>true</visible>
+                <baseMoodEffect>-1</baseMoodEffect>
+            </li>
+            <li>
+                <label>iridescent armor</label>
+                <description>Lovely obsidian-colored armor. Love the color!</description>
+                <visible>true</visible>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+            <li>
+                <label>iridescent armor</label>
+                <description>I can barely move!</description>
+                <visible>true</visible>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+	
+</Defs>

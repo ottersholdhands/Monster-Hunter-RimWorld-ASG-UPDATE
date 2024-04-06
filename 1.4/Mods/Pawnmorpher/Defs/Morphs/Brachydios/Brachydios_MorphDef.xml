@@ -1,0 +1,24 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef ParentName="SensitiveFoodMorph">
+		<defName>BrachydiosMorph</defName>
+		<label>Brachydiosmorph</label>
+		<description>A scaly reptile morph with traits similar to that of a Brachydios.</description>
+		<race>Brachydios</race>
+		<classification>MHDrakes</classification>
+		<categories>
+			<li>Powerful</li>
+			<li>Monster</li>
+		</categories>
+		<fullTransformation>PawnmorphBrachydiosTF</fullTransformation>
+		<partialTransformation>PawnmorphBrachydiosTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(56, 74, 96)</skinColorOverride>
+			</graphicsSettings>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>BrachydiosTransformationMemory</transformationMemory>
+			<revertedMemory>BrachydiosRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>

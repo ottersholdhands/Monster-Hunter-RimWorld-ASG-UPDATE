@@ -1,0 +1,344 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/MutationDef.xsd">
+
+    <HediffDef Name="MorphTFMutagen" ParentName="NewAspectedMorphParent" Abstract="True">
+        <HediffClass>Pawnmorph.Hediffs.MorphTf</HediffClass>
+    </HediffDef>
+	
+	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphPart">
+		<defName>EtherWyvernHand</defName>
+		<label>clawed hand</label>
+		<description>[PAWN_nameDef]'s hands have grown in size, with each finger sporting a large curved claw at its end.</description>
+		<parts>
+			<li>Hand</li>
+		</parts>
+		<classInfluence>MHMonsters</classInfluence>
+		<stages>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<label>unfamiliar</label>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<minSeverity>1</minSeverity>
+				<label>adapted</label>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>claws</label>
+						<labelUsedInLogging>False</labelUsedInLogging>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>8</power>
+						<cooldownTime>2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.25</severityPerDay>
+			</li>
+		</comps>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+	<Pawnmorph.Hediffs.MutationDef ParentName="IguanaPart">
+		<defName>EtherWyvernFoot</defName>
+		<label>clawed foot</label>
+		<description>[PAWN_nameDef]'s feet have turned into large, clawed reptile feet.</description>
+		<parts>
+			<li>Foot</li>
+		</parts>
+		<classInfluence>MHMonsters</classInfluence>
+		<stages>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<minSeverity>1</minSeverity>
+				<label>adapted</label>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.25</severityPerDay>
+			</li>
+		</comps>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+	<Pawnmorph.Hediffs.MutationDef ParentName="IguanaPart">
+		<defName>EtherDromeFoot</defName>
+		<label>raptor foot</label>
+		<description>[PAWN_nameDef]'s feet have reformed to resemble those of a raptor, with one toe bending upwards, and growing a much larger sharp talon.</description>
+		<parts>
+			<li>Foot</li>
+		</parts>
+		<classInfluence>MHRaptors</classInfluence>
+		<stages>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<minSeverity>1</minSeverity>
+				<label>adapted</label>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.13</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.25</severityPerDay>
+			</li>
+		</comps>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphPart">
+		<defName>EtherMHDigitigradeLeg</defName>
+		<label>digitigrade</label>
+		<description>The shape of [PAWN_nameDef]'s legs reminds one more of a beast than a human, for they now stand on their toes instead of their heel, which has elongated. This does, however, put a spring in their step.</description>
+		<parts>
+			<li>Leg</li>
+		</parts>
+		<classInfluence>MHMonsters</classInfluence>
+		<mutationTale>LegBecameDigitgrade</mutationTale>
+		<mutationMemory>EtherDigitigradeLeg</mutationMemory>
+		<stages>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>crooked</labelOverride>
+				<description>[PAWN_nameDef]'s leg seems to have degraded into something that looks awfully uncomfortable to walk on.</description>
+				<minSeverity>-1</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.4</offset>
+					</li>
+				</capMods>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>readjusting</labelOverride>
+				<description>The bones in [PAWN_nameDef]'s leg are growing longer or shorter as need be. It will be rather difficult and painful to move while this change is taking place.</description>
+				<minSeverity>0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.3</offset>
+					</li>
+				</capMods>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<label>unfamiliar</label>
+				<minSeverity>0.3</minSeverity>
+				<description>The shape of [PAWN_nameDef]'s legs reminds one more of a beast than a human, for they now stand on their toes instead of their heel, which has elongated. They'll need some time to get used to the new shape.</description>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<minSeverity>1</minSeverity>
+				<label>adapted</label>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.25</severityPerDay>
+			</li>
+		</comps>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphPart">
+		<defName>EtherMHLongNeck</defName>
+		<label>elongated neck</label>
+		<description>The neck portion of [PAWN_nameDef]'s spine has stretched quite a bit, giving them a long, flexible neck of a wyvern.</description>
+		<parts>
+			<li>Neck</li>
+		</parts>
+		<classInfluence>MHWyverns</classInfluence>
+		<stages>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>aching</labelOverride>
+				<description>[PAWN_nameDef]'s neck is a bit stiff, and quite sore.</description>
+				<minSeverity>0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>growing</labelOverride>
+				<minSeverity>0.3</minSeverity>
+				<description>[PAWN_nameDef]'s neck is growing longer.</description>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+						<PM_BodySize>0.1</PM_BodySize>
+				</statOffsets>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<minSeverity>1</minSeverity>
+				<statOffsets>
+						<PM_BodySize>0.2</PM_BodySize>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.25</severityPerDay>
+			</li>
+		</comps>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+	<Pawnmorph.Hediffs.MutationDef ParentName ="PawnmorphPart">
+		<description>An oversized torso, with a large chest and strong muscles to support wing muscles.</description>
+		<defName>EtherMHWyvernTorso</defName>
+		<classInfluences>
+			<li>MHWyverns</li>
+		</classInfluences>
+		<parts>
+			<li>Torso</li>
+		</parts>
+		<label>wyvern torso</label>
+		<stages>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<label>initial</label>
+				<minSeverity>0</minSeverity>
+				<description>[PAWN_nameDef]'s torso seems to be a little bulkier than before.</description>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<label>growing</label>
+				<minSeverity>0.3</minSeverity>
+				<capMods>
+						<li>
+							<capacity>Moving</capacity>
+							<offset>-0.1</offset>
+						</li>
+				</capMods>
+				<description>[PAWN_nameDef]'s torso is tougher and could shrug off a firm hit easily. However, the quick muscle growth is too painful for [PAWN_nameDef] to be useful yet.</description>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+
+					<description>[PAWN_nameDef]'s now sports a large chest, with strong, hollow bones and muscle structure to support large wings.</description>
+					<globalHealthMultiplier>1.5</globalHealthMultiplier>
+					<minSeverity>1.0</minSeverity>
+					<capMods>
+						<li>
+							<capacity>Moving</capacity>
+							<offset>-0.05</offset>
+						</li>
+					</capMods>
+					<statOffsets>
+						<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+						<PM_BodySize>1.5</PM_BodySize>
+						<PM_Lift>0.5</PM_Lift>
+					</statOffsets>
+
+			</li>
+		</stages>
+		<comps>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.25</severityPerDay>
+			</li>
+		</comps>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+	<Pawnmorph.Hediffs.MutationDef ParentName ="PawnmorphPart">
+		<description>A bulkier torso with thicker ribs and larger chest cavity.</description>
+		<defName>EtherMHMonsterTorso</defName>
+		<classInfluences>
+			<li>MHRaptors</li>
+			<li>MHDrakes</li>
+		</classInfluences>
+		<parts>
+			<li>Torso</li>
+		</parts>
+		<label>englarged torso</label>
+		<stages>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<label>initial</label>
+				<minSeverity>0.0</minSeverity>
+				<description>[PAWN_nameDef]'s torso seems to be a little bulkier than before.</description>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<label>growing</label>
+				<minSeverity>0.3</minSeverity>
+				<capMods>
+						<li>
+							<capacity>Moving</capacity>
+							<offset>-0.1</offset>
+						</li>
+					</capMods>
+				<description>[PAWN_nameDef]'s torso is tougher and could shrug off a firm hit easily. However, the quick muscle growth is too painful for [PAWN_nameDef] to be useful yet.</description>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+
+					<description>[PAWN_nameDef]'s now sports a larger chest cavity with tougher bones.</description>
+					<globalHealthMultiplier>1.5</globalHealthMultiplier>
+					<minSeverity>1.0</minSeverity>
+					<capMods>
+						<li>
+							<capacity>Moving</capacity>
+							<offset>-0.05</offset>
+						</li>
+					</capMods>
+					<statOffsets>
+						<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+						<PM_BodySize>0.7</PM_BodySize>
+					</statOffsets>
+
+			</li>
+		</stages>
+		<comps>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.25</severityPerDay>
+			</li>
+		</comps>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+	<Pawnmorph.Hediffs.MutationDef ParentName="SnakePart">
+		<defName>EtherWyvernEye</defName>
+		<label>wyvern eye</label>
+		<description>[PAWN_nameDef]'s eyes became those of a wyvern.</description>
+		<classInfluence>MHMonsters</classInfluence>
+		<parts>
+			<li>Eye</li>
+		</parts>
+		<stages>
+            <li Class="Pawnmorph.Hediffs.MutationStage">
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</Pawnmorph.Hediffs.MutationDef>
+</Defs>
