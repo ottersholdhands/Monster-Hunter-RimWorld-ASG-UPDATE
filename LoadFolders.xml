@@ -22,9 +22,5 @@
 		<li>/</li>
 		<li>Common</li>
 		<li>1.5</li>
-		<li IfModActive="tachyonite.pawnmorpherpublic">1.5/Mods/Pawnmorpher</li>	
-		<li IfModActive="tachyonite.pawnmorpherpublic_copy">1.5/Mods/Pawnmorpher</li>
-		<li IfModActive="tachyonite.pawnmorpher">1.5/Mods/Pawnmorpher</li>	
-		<li IfModActive="tachyonite.pawnmorpher_copy">1.5/Mods/Pawnmorpher</li>
 	</v1.5>
 </loadFolders>
