@@ -69,13 +69,13 @@
 			<li>Skull</li>
 		</parts>
 		<graphics>
-			<Horns>
+			<KelbiHorns>
 				<path>Parts/None/None</path>
-				<genderGraphics>
-					<Male>Parts/Kelbi/Kelbi_Horns_Male</Male>
-					<Female>Parts/Kelbi/Kelbi_Horns_Female</Female>
-				</genderGraphics>
-			</Horns>
+				<extendedGraphics>
+					<Gender For="Male">Parts/Kelbi/Kelbi_Horns_Male</Gender>
+					<Gender For="Female">Parts/Kelbi/Kelbi_Horns_Female</Gender>
+				</extendedGraphics>
+			</KelbiHorns>
 		</graphics>
 		<stages>
 			<li Class="Pawnmorph.Hediffs.MutationStage">
@@ -114,20 +114,20 @@
 			</li>
 		</stages>
 		<graphics>
-			<LeftEar>
+			<KelbiLeftEar>
 				<path>Parts/None/None</path>
-				<genderGraphics>
-					<Male>Parts/Kelbi/Kelbi_Ear_Left_Male</Male>
-					<Female>Parts/Kelbi/Kelbi_Ear_Left_Female</Female>
-				</genderGraphics>
-			</LeftEar>
-			<RightEar>
+				<extendedGraphics>
+					<Gender For="Male">Parts/Kelbi/Kelbi_Ear_Left_Male</Gender>
+					<Gender For="Female">Parts/Kelbi/Kelbi_Ear_Left_Female</Gender>
+				</extendedGraphics>
+			</KelbiLeftEar>
+			<KelbiRightEar>
 				<path>Parts/None/None</path>
-				<genderGraphics>
-					<Male>Parts/Kelbi/Kelbi_Ear_Right_Male</Male>
-					<Female>Parts/Kelbi/Kelbi_Ear_Right_Female</Female>
-				</genderGraphics>
-			</RightEar>
+				<extendedGraphics>
+					<Gender For="Male">Parts/Kelbi/Kelbi_Ear_Right_Male</Gender>
+					<Gender For="Female">Parts/Kelbi/Kelbi_Ear_Right_Female</Gender>
+				</extendedGraphics>
+			</KelbiRightEar>
 		</graphics>
 		<parts>
 			<li>Ear</li>

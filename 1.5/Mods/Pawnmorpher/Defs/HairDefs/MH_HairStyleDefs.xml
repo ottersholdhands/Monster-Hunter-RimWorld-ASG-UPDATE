@@ -8,15 +8,13 @@
     <styleGender>Male</styleGender>
     <texPath>Parts/Teostra/Teostra_Mane</texPath>
     <category>Tribal</category>
-    <styleTags>
-      <styleTags>
+    <styleTags>     
       <li>Urban</li>
       <li>Punk</li>
       <li>Rural</li>
       <li>Tribal</li>
       <li>Soldier</li>
-      <li>HairShort</li>
-    </styleTags>
+      <li>HairShort</li>   
     </styleTags>
   </HairDef>
   
@@ -26,15 +24,13 @@
     <styleGender>Female</styleGender>
     <texPath>Parts/Lunastra/Lunastra_Mane</texPath>
     <category>Tribal</category>
-    <styleTags>
-      <styleTags>
+    <styleTags>    
       <li>Urban</li>
       <li>Punk</li>
       <li>Rural</li>
       <li>Tribal</li>
       <li>Soldier</li>
-      <li>HairShort</li>
-    </styleTags>
+      <li>HairShort</li>   
     </styleTags>
   </HairDef>
 
@@ -44,15 +40,13 @@
     <styleGender>Any</styleGender>
     <texPath>Parts/Jagras/Jagras_Dreads</texPath>
     <category>Tribal</category>
-    <styleTags>
-      <styleTags>
+    <styleTags>     
       <li>Urban</li>
       <li>Punk</li>
       <li>Rural</li>
       <li>Tribal</li>
       <li>Soldier</li>
-      <li>HairShort</li>
-    </styleTags>
+      <li>HairShort</li>    
     </styleTags>
   </HairDef>
 
@@ -62,15 +56,13 @@
     <styleGender>Male</styleGender>
     <texPath>Parts/Kirin/Kirin_Mane</texPath>
     <category>Tribal</category>
-    <styleTags>
-      <styleTags>
+    <styleTags>     
       <li>Urban</li>
       <li>Punk</li>
       <li>Rural</li>
       <li>Tribal</li>
       <li>Soldier</li>
-      <li>HairShort</li>
-    </styleTags>
+      <li>HairShort</li>   
     </styleTags>
   </HairDef>
   

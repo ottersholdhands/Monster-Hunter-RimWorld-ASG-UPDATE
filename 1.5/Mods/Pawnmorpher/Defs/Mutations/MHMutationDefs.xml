@@ -1,7 +1,7 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/MutationDef.xsd">
 
     <HediffDef Name="MorphTFMutagen" ParentName="NewAspectedMorphParent" Abstract="True">
-        <HediffClass>Pawnmorph.Hediffs.MorphTf</HediffClass>
+        <hediffClass>Pawnmorph.Hediffs.MorphTf</hediffClass>
     </HediffDef>
 	
 	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphPart">

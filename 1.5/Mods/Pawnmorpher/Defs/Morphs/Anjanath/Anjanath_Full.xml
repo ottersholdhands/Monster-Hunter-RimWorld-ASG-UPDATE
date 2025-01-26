@@ -41,7 +41,7 @@
 				<letterText>TransformationStageWarningContent</letterText>
 				<letterLabel>TransformationStageWarningLabel</letterLabel>
 			</li>
-			<li Class="Pawnmorph.Hediffs.MorphTransformationStage" >
+			<li Class="Pawnmorph.Hediffs.MorphTransformationStage">
 				<label>changing</label>
 				<minSeverity>0.65</minSeverity>
 				<painOffset>0.1</painOffset>

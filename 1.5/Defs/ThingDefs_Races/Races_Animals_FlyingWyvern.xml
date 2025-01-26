@@ -510,7 +510,7 @@
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
       </li>
-	  <li Class="MonsterHunterRimworld.CompProperties_MHRenderWhileAiming">
+	  <!--<li Class="MonsterHunterRimworld.CompProperties_MHRenderWhileAiming">
 		<graphicData>
 			<texPath>Things/Pawn/Animal/Legiana/Frills</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -520,7 +520,7 @@
 			<drawOffsetEast>(0, 0.1, 0)</drawOffsetEast>
 			<drawOffsetWest>(0, 0.1, 0)</drawOffsetWest>
 		</graphicData>
-	  </li>
+	  </li>-->
 	  <li Class="MVCF.Comps.CompProperties_VerbProps">
         <compClass>MVCF.Comps.Comp_VerbProps</compClass>
         <verbProps>
