@@ -15,7 +15,7 @@ namespace MonsterHunterRimworld
                 return this.def as ThingDef_Projectile_Motetrail;
             }
         }
-        public override void Tick()
+        protected override void Tick()
         {
             base.Tick();
             FleckMaker.ThrowDustPuff(base.Position, base.Map, 1.0f);

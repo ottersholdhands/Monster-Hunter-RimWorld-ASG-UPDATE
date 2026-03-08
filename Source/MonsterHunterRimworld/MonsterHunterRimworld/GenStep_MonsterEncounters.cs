@@ -57,7 +57,7 @@ namespace MonsterHunterRimworld
             animalResolveParams.rect = rect;
             animalResolveParams.singlePawnKindDef = huntingKind;
             //animalResolveParams.singlePawnToSpawn = pawn;
-            animalResolveParams.faction = FactionUtility.DefaultFactionFrom(huntingKind.defaultFactionType);
+            animalResolveParams.faction = FactionUtility.DefaultFactionFrom(huntingKind.defaultFactionDef);
             BaseGen.symbolStack.Push("MHRW_SpawnHuntingMonstersSymbol", animalResolveParams);
             BaseGen.Generate();
         }

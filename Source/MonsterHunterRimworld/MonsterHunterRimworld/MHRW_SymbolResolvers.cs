@@ -34,7 +34,7 @@ namespace MonsterHunterRimworld
             PawnKindDef huntingTarget = rp.singlePawnKindDef;
 
                ResolveParams resolveParams = rp;
-                Faction faction = FactionUtility.DefaultFactionFrom(huntingTarget.defaultFactionType);
+                Faction faction = FactionUtility.DefaultFactionFrom(huntingTarget.defaultFactionDef);
                 Pawn pawnToSpawn = PawnGenerator.GeneratePawn(huntingTarget, faction);
 
                 resolveParams.singlePawnToSpawn = pawnToSpawn;
